@@ -18,7 +18,7 @@ Ehitad selle rakenduse ise, samm-sammult.
 
 **Structure
 
-
+ ```
 src/
 ├── event/                 ← üks domeen = üks kaust
 │   ├── event.routes.ts        aadressid + ühendused (DI)
@@ -33,3 +33,5 @@ src/
 ├── app.ts
 └── server.ts
 tests/                     ← peegeldab src/ struktuuri
+
+```
