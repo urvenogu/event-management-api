@@ -1,8 +1,7 @@
 {
   "name": "event-management-api",
-  "version": "1.0.0",
-  "description": "Ehitad selle rakenduse ise, samm-sammult.",
-  "main": "index.js",
+  "description": "Event manager planning tool.",
+  "version": "0.1.0",
   "scripts": {
   "server": "tsx --env-file=.env src/server.ts",
   "build": "tsc",
@@ -14,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/urvenogu/event-management-api.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "bugs": {
     "url": "https://github.com/urvenogu/event-management-api/issues"
