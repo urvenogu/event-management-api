@@ -7,18 +7,20 @@ Ehitad selle rakenduse ise, samm-sammult.
 ** App: Event management is a tool for event organisers. You can create events, set up users and different tickets and prices for tickets
 
 ** Start the app with npm install, npm install server, npm run dev
+** npm run format, npm run lint, npm run typecheck
 
 ** Scripts:
-* "server": "tsx --env-file=.env src/server.ts",
-* "build": "tsc",
-* "start": "node dist/server.js",
-* "typecheck": "tsc --noEmit"
 
-** Every completed issue will add a new script. 
+- "server": "tsx --env-file=.env src/server.ts",
+- "build": "tsc",
+- "start": "node dist/server.js",
+- "typecheck": "tsc --noEmit"
+
+** Every completed issue will add a new script.
 
 **Structure
 
- ```
+```
 src/
 ├── event/                 ← üks domeen = üks kaust
 │   ├── event.routes.ts        aadressid + ühendused (DI)

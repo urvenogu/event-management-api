@@ -1,0 +1,19 @@
+{
+    "rules": {"no-console": "error"},
+    "overrides": [
+        {
+            "files": ["src/config/env.ts", "src/scripts/**"],
+            "rules": {"no-console": "off"}
+        }
+    ],
+
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["typescript", "unicorn", "oxc"],
+    "categories": {
+        "correctness": "error"
+    },
+    "rules": {},
+    "env": {
+        "builtin": true
+    }
+}
