@@ -7,7 +7,20 @@ Ehitad selle rakenduse ise, samm-sammult.
 ** App: Event management is a tool for event organisers. You can create events, set up users and different tickets and prices for tickets
 
 ** Start the app with npm install, npm install server, npm run dev
-** npm run format, npm run lint, npm run typecheck
+** npm run format, npm run lint, npm run typecheck, 
+** docker compose up -d, docker compose down
+
+**Workflow
+** every issue has a branch. With PR (pull request) will be checked the code and added to master.
+
+When to use 
+feat:	uus võimalus
+fix:	vea parandus
+refactor:	koodi ümberkorraldus ilma käitumist muutmata
+chore:	seadistus, paketid
+docs:	README, dokumentatsioon
+test:	testid
+
 
 ** Scripts:
 
@@ -37,3 +50,4 @@ src/
 tests/                     ← peegeldab src/ struktuuri
 
 ```
+
