@@ -14,6 +14,12 @@ export const auth = betterAuth({
             generateId: "uuid",
         },
     },
+    socialProviders: {
+    google: {
+        clientId: env.GOOGLE_CLIENT_ID,
+        clientSecret: env.GOOGLE_CLIENT_SECRET,
+    },
+    },
     user: {
         additionalFields: {
             role: {
