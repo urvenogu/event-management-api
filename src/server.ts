@@ -1,10 +1,10 @@
 import app from "./app.js";
 
-const PORT = 3000;
-
-const server = app.listen(PORT, (error) => {
+import {env} from "./config/env.js";
+// ...
+const server = app.listen(env.PORT, (error) => {
     if (error) throw error;
-    console.log(`Server started at http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${env.PORT}`);
 });
 
 let isShuttingDown = false;
