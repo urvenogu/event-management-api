@@ -12,6 +12,7 @@ Ehitad selle rakenduse ise, samm-sammult.
 
 **Workflow
 ** every issue has a branch. With PR (pull request) will be checked the code and added to master.
+** issue 6: installing zod
 
 When to use 
 feat:	uus võimalus
