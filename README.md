@@ -28,7 +28,13 @@ test:	testid
 - "server": "tsx --env-file=.env src/server.ts",
 - "build": "tsc",
 - "start": "node dist/server.js",
-- "typecheck": "tsc --noEmit"
+- "typecheck": "tsc --noEmit",
+- "lint": "oxlint",
+- "format": "prettier --write .",
+- "format:check": "prettier --check .",
+- "db:generate": "drizzle-kit generate",
+- "db:migrate": "drizzle-kit migrate",
+- "db:studio": "drizzle-kit studio"
 
 ** Every completed issue will add a new script.
 
