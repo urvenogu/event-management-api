@@ -3,3 +3,4 @@ dist
 migrations
 package-lock.json
 .github/seadistus
+src/db/schema/auth.ts

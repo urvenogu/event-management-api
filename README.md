@@ -11,16 +11,17 @@ Ehitad selle rakenduse ise, samm-sammult.
 ** docker compose up -d, docker compose down
 
 **Workflow
-** every issue has a branch. With PR (pull request) will be checked the code and added to master.
-** issue 6: installing zod
+- every issue has a branch. With PR (pull request) will be checked the code and added to master.
+- install zod
+- install better-auth. If auth.ts configuration changes, repeat auth:generate → db:generate → db:migrate
 
-When to use 
-feat:	uus võimalus
-fix:	vea parandus
-refactor:	koodi ümberkorraldus ilma käitumist muutmata
-chore:	seadistus, paketid
-docs:	README, dokumentatsioon
-test:	testid
+Github commit comments:
+- feat:	uus võimalus
+- fix:	vea parandus
+- refactor:	koodi ümberkorraldus ilma käitumist muutmata
+- chore:	seadistus, paketid
+- docs:	README, dokumentatsioon
+- test:	testid
 
 
 ** Scripts:
